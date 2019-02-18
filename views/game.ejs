@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cube Warfare</title>
+
+    <style>
+      body{background-color:#222;}
+      canvas{
+        display: block;
+        position: absolute;
+        border: 1px solid #333;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+      p{ color: #fff; font-size: 24px; }
+    </style>
+  </head>
+  <body>
+    <p id="numOfCubes"></p>
+
+    <script>
+      let cubes = <%= cubes %>;
+    </script>
+
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
